@@ -1,0 +1,50 @@
+.card{
+  width:  180px;
+  height: 210px;
+  background-image: url('C:/Users/ANIRUDH/Desktop/Rent-mitro-copy-main/assets/img/image22.jpg');
+  display: inline-block;
+  border-radius: 20px;
+  padding: 15px 25px 60px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 90px 15px;
+    background-position:center;
+  background-size: cover;
+ color: white;
+ text-decoration:none;
+ font-family:cursive;
+ transition: transform 0.5s;
+box-shadow: 2px 2px 20px black;
+
+}
+.btn-account {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: orangered;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.category{
+  font-size: 35px;
+font-family:monospace;
+font-weight: bold;
+  margin: 30px;
+}
+.cate{
+  margin: 70px;
+  background : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.20)), url('C:/Users/ANIRUDH/Desktop/Rent-mitro-copy-main/assets/img/download.jpg');
+ background-repeat:no-repeat;
+ background-size:cover;
+
+}
+.card:hover{
+transform: translateY(-10px);
+color : white;
+
+}
